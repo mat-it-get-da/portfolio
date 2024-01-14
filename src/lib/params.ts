@@ -45,37 +45,23 @@ export const getPlatfromIcon = (platform: Platform): Icons => {
 };
 
 export const HOME: HomePageParams = {
+	/** 사이트 제목 */
 	title: 'Home',
-	name: 'Name',
-	lastName: 'LASTNAME',
+	/** 성 */
+	name: 'mat_it_get_da',
+	/** 이름 */
+	lastName: '',
+	/** 소개 */
 	description:
 		'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!',
+	/** 개인 연락처/SNS */
 	links: [
 		{ platform: Platform.GitHub, link: 'https://github.com/' },
-		{
-			platform: Platform.Linkedin,
-			link: 'https://www.linkedin.com/'
-		},
-		{
-			platform: Platform.Twitter,
-			link: 'https://twitter.com/'
-		},
-		{
-			platform: Platform.StackOverflow,
-			link: 'https://stackoverflow.com/'
-		},
+		// TODO: 블로그 링크를 추가해야 함
 		{
 			platform: Platform.Email,
-			link: 'riadh-adrani@hotmail.fr'
+			link: 'ggaebi011@naver.com'
 		},
-		{
-			platform: Platform.Youtube,
-			link: 'https://www.youtube.com'
-		},
-		{
-			platform: Platform.Facebook,
-			link: 'https://www.facebook.com'
-		}
 	]
 };
 
